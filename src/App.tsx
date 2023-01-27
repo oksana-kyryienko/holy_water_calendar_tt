@@ -1,11 +1,11 @@
 import React from 'react';
-import { Calendar } from './components/Calendar/Calendar';
 import './App.css';
+import CalendarClass from './components/Calendar/CalendarClass';
 
 function App() {
   return (
     <div>
-      <Calendar date={new Date()} />
+      <CalendarClass />
     </div>
   );
 }
